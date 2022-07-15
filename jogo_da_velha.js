@@ -136,7 +136,7 @@ function verifica_combinacao(){
       $('.jogada').off(); //remover a possibilidade de capturar o evento click depois do jogo finalizado
 
     } else if(pontos == 3){
-      var nome_jogador_2 = $('#entrada_apelido_jogador_1').val();
+      var nome_jogador_2 = $('#entrada_apelido_jogador_2').val();
       alert(nome_jogador_2 + ' é o vencedor');
       $('.jogada').off();
     }
